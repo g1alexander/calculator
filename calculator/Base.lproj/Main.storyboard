@@ -68,6 +68,9 @@
                                                             <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
                                                             <color key="baseForegroundColor" systemColor="viewFlipsideBackgroundColor"/>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="percentage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ob9-3D-Cwp"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4eJ-ss-Kbw">
                                                         <rect key="frame" x="300" y="0.0" width="90" height="111.33333333333333"/>
@@ -79,6 +82,9 @@
                                                             <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
                                                             <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="divided:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2qg-7V-mbE"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -137,6 +143,9 @@
                                                             <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
                                                             <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="Multiplication:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Umr-ov-ZaO"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -195,6 +204,9 @@
                                                             <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
                                                             <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="minus:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1lw-ye-omV"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -253,6 +265,9 @@
                                                             <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
                                                             <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="sum:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Nls-J2-5UX"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -305,6 +320,9 @@
                                                                     <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
                                                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 </buttonConfiguration>
+                                                                <connections>
+                                                                    <action selector="operation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uiC-fD-XA4"/>
+                                                                </connections>
                                                             </button>
                                                         </subviews>
                                                     </stackView>
